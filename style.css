@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    color: #28AFB0;
+}
+
+body{
+    background-color:#EEE5E5;
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    height: 300px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.blocoUm{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center ;
+}
+
+.blocoDois{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#status, #resultado{
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #19647E;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.rotulo{
+    background-color: #28AFB0;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 0px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.rotulo:hover{
+    background-color: #259898;
+    filter: drop-shadow(rgba(83, 83, 83, 0.264) 2px 2px 2px );
+}
+
+#pedraId, #papelId, #tesouraId{
+    margin-right: 20px;
+}
+
+button{
+    margin: 20px auto 0px auto;
+    background-color: #28AFB0;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #259898;
+    filter: drop-shadow(rgba(83, 83, 83, 0.264) 2px 2px 2px );
+}
+
+#jogar{
+    display: block;
+}
+
+#jogarDeNovo{
+    display: none;
+}
+
+footer{
+    font-size: 1.2em;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #19647E;
+    font-style: italic;
+}
+
+strong{
+    color: #19647E;
+}
+
+.objetivo{
+    background-color: #fff;
+    padding: 10px 0px;
+}

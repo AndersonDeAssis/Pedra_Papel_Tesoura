@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Bora jogar Jokenpô:
+        </h1>
+    </header>
+    <main>
+        <article class="blocoUm">
+
+            <div class="fundoEscolha">
+                <label for="pedraId" class="rotulo">
+                    <input type="radio" name="maoUm" id="pedraId" onclick="recomecar()" checked>Pedra
+                </label>
+
+            </div>
+            <div class="fundoEscolha">
+                <label for="papelId" class="rotulo">
+                    <input type="radio" name="maoUm" id="papelId" onclick="recomecar()">Papel
+                </label>
+            </div>
+            
+            <div class="fundoEscolha">
+                <label for="tesouraId" class="rotulo"> 
+                    <input type="radio" name="maoUm" id="tesouraId" onclick="recomecar()">Tesoura
+                </label>
+            </div>
+
+        </article>
+        <article class="blocoDois">
+            <p id="resultado">
+                Adversário
+            </p>
+            <p id="status">
+                Status
+            </p>
+        </article>
+    </main>
+
+    <button onclick="jogar()" id="jogar">Jogar</button>
+    <button id="jogarDeNovo" onclick="recomecar()">Jogar Novamente</button>
+
+    <footer>
+        <p>
+            <strong>Jogo de Jokenpô</strong> feito para treinar alguns conhecimentos iniciais, feito no dia: <strong>01/05/2024</strong> <br>por <a href="https://github.com/AndersonDeAssis" target="_blank" rel="external"><strong>Anderson de Assis Rosa</strong> </a>
+        </p>
+        <p class="objetivo">
+            <strong>Objetivo:</strong> Refatoração futura com conhecimentos adicionais.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
